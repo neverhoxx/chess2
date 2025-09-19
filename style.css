@@ -1,0 +1,46 @@
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("./360_F_73186514_IRscqCNg99g2qRRnwGWNsXG069OOHM6Q.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app{
+    width: 800px;
+    height: 800px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row{
+    width: 800px;
+    height: 100px;
+
+    display: flex;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
